@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.1) 0%, rgb(0, 0, 0) 100%);
+    background-color: rgb(0, 0, 0);
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1) 0%, rgb(0, 0, 0) 100%);
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+}
+
+h1 {
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background: linear-gradient(rgb(0, 0, 0) 100%, rgba(255, 255, 255, 0.1) 0%);
+    background-color: rgb(0, 0, 0);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(rgb(0, 0, 0) 100%, rgba(255, 255, 255, 0.1) 0%);
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    color: white;
+    width: 35%;
+    height: 800px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    margin: 2rem;
+}
+
+.logo {
+    width: 7%;
+    margin-bottom: 1rem;
+}
+
+hr {
+    width: 70%;
+    border-top: 1px solid rgb(41, 41, 41);
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    color: rgb(41, 41, 41);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login-options {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    border: solid 2px rgb(41, 41, 41);
+    border-radius: 30px;
+    padding: 0.75rem;
+    margin: 4px;
+    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login-options:hover {
+    border: solid 2px white;
+    cursor: pointer;
+}
+
+.accounts-div {
+    display: flex;
+    align-items: center;
+}
+
+.account-icon {
+    margin-left: 1.5rem;
+    margin-right: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.form input[type="email"], .form input[type="password"] {
+    background: linear-gradient(rgb(0, 0, 0) 100%, rgba(255, 255, 255, 0.1) 0%);
+    background-color: rgb(0, 0, 0);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(rgb(0, 0, 0) 100%, rgba(255, 255, 255, 0.1) 0%);
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    color: white;
+    border: solid 2px rgb(41, 41, 41);
+    border-radius: 30px;
+    padding: 0.75rem;
+    margin: 4px;
+    width: 50%;
+    font-size: 16px;
+    appearance: none;
+    background-image: none;
+    border: 0px;
+    display: block;
+    transition: box-shadow 100ms ease-in-out, color 100ms ease-in-out;
+    inline-size: 100%;
+    box-sizing: border-box;
+    margin-block: 0px;
+    border-radius: 4px;
+    padding-inline: 12px;
+    padding-block: 12px;
+    min-block-size: 48px;
+    box-shadow: inset 0 0 0 1px #818181;
+    width: 50%;
+    margin: 3%;
+}
+
+.form input[type="email"]:focus, .form input[type="email"]:hover {
+    border: solid 1px white;
+}
+
+.form input[type="password"]:focus, .form input[type="password"]:hover {
+    border: solid 1px white;
+}
+
+.login{
+    background-color: #1ed760;
+    border: solid 2px rgb(41, 41, 41);
+    border-radius: 30px;
+    padding: 0.75rem;
+    margin: 4px;
+    width: 50%;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.login:hover {
+    background-color: #3be477;
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+.form label {
+    align-self: flex-start;
+    margin-left: 10.75rem;
+}
+
+.form a {
+    color: white;
+}
+
+.form a:hover {
+    color: #1ed760;
+}
+
+.forgot-password {
+    margin-top: 2rem;
+}
+
+.signup {
+    margin-top: 2rem;
+    color: #b3b3b3;
+}
+
+.footer-container {
+    background: linear-gradient(rgb(0, 0, 0) 100%, rgba(255, 255, 255, 0.1) 0%);
+    background-color: rgb(0, 0, 0);
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-image: linear-gradient(rgb(0, 0, 0) 100%, rgba(255, 255, 255, 0.1) 0%);
+    background-size: auto;
+    background-origin: padding-box;
+    background-clip: border-box;
+    color: #b3b3b3;
+    width: 100%;
+    height: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.75rem;
+}
+
+.footer-container a, .footer-container a:hover {
+    color: white;
+}
